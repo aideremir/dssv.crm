@@ -39,6 +39,9 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
+		6C0C5CA475EA4E4FB6E103EE /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFAC3A53BFA4410A1CCFE98 /* CDVDevice.m */; };
+		AB828E6340514F35AFB2C74D /* APPBackgroundMode.m in Sources */ = {isa = PBXBuildFile; fileRef = E65EC85F13FB4993887F1763 /* APPBackgroundMode.m */; };
+		5B444ACF481A4B7E8EA65B7A /* appbeep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 96B58C9894364780921CC458 /* appbeep.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +107,11 @@
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "Dssv CRM/config.xml"; sourceTree = "<group>"; };
+		DEFAC3A53BFA4410A1CCFE98 /* CDVDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVDevice.m"; path = "org.apache.cordova.device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		67F4EE5068B04A0DBB2886DD /* CDVDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVDevice.h"; path = "org.apache.cordova.device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E65EC85F13FB4993887F1763 /* APPBackgroundMode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "APPBackgroundMode.m"; path = "de.appplant.cordova.plugin.background-mode/APPBackgroundMode.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		B78DC6BD6E544B00A587AC1D /* APPBackgroundMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "APPBackgroundMode.h"; path = "de.appplant.cordova.plugin.background-mode/APPBackgroundMode.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		96B58C9894364780921CC458 /* appbeep.wav */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "appbeep.wav"; path = "appbeep.wav"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +184,7 @@
 				308D052D1370CCF300D202BF /* icons */,
 				308D05311370CCF300D202BF /* splash */,
 				8D1107310486CEB800E47090 /* Dssv CRM-Info.plist */,
+				96B58C9894364780921CC458 /* appbeep.wav */,
 			);
 			name = Resources;
 			path = "Dssv CRM/Resources";
@@ -202,6 +211,10 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				DEFAC3A53BFA4410A1CCFE98 /* CDVDevice.m */,
+				67F4EE5068B04A0DBB2886DD /* CDVDevice.h */,
+				E65EC85F13FB4993887F1763 /* APPBackgroundMode.m */,
+				B78DC6BD6E544B00A587AC1D /* APPBackgroundMode.h */,
 			);
 			name = Plugins;
 			path = "Dssv CRM/Plugins";
@@ -355,6 +368,7 @@
 				7E7966E11810823500FA85AD /* icon-50@2x.png in Resources */,
 				7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */,
 				30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */,
+				5B444ACF481A4B7E8EA65B7A /* appbeep.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +400,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				6C0C5CA475EA4E4FB6E103EE /* CDVDevice.m in Sources */,
+				AB828E6340514F35AFB2C74D /* APPBackgroundMode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
