@@ -1,0 +1,16 @@
+2015-06-04 02:05:38.923 Dssv CRM[20212:1499167] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/administrator/Library/Developer/CoreSimulator/Devices/29F0B07E-2E74-4CAD-8EF4-51D62F5EF5FE/data/Containers/Data/Application/2965556B-08C4-4E20-8C9F-0E1DA916F012/Library/Cookies/Cookies.binarycookies
+2015-06-04 02:05:39.332 Dssv CRM[20212:1499167] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-04 02:05:39.332 Dssv CRM[20212:1499167] Multi-tasking -> Device: YES, App: YES
+2015-06-04 02:05:39.350 Dssv CRM[20212:1499167] Unlimited access to network resources
+2015-06-04 02:05:39.360 Dssv CRM[20212:1499167] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-04 02:05:40.194 Dssv CRM[20212:1499167] Resetting plugins due to page load.
+2015-06-04 02:05:40.330 Dssv CRM[20212:1499167] Finished load of: file:///Users/administrator/Library/Developer/CoreSimulator/Devices/29F0B07E-2E74-4CAD-8EF4-51D62F5EF5FE/data/Containers/Bundle/Application/20FF9C5E-57F1-4A98-A71F-CC4E571162E6/Dssv%20CRM.app/www/index.html
+2015-06-04 02:05:40.376 Dssv CRM[20212:1499167] ERROR: Plugin 'PhoneCallTrap' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-06-04 02:05:40.377 Dssv CRM[20212:1499167] -[CDVCommandQueue executePending] [Line 159] FAILED pluginJSON = ["PhoneCallTrap1814333989","PhoneCallTrap","onCall",[]]
