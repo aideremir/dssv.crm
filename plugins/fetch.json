@@ -1,13 +1,4 @@
 {
-    "de.appplant.cordova.plugin.background-mode": {
-        "source": {
-            "type": "git",
-            "url": "https://github.com/katzer/cordova-plugin-background-mode.git",
-            "subdir": "."
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "io.gvox.plugin.phonecalltrap": {
         "source": {
             "type": "registry",

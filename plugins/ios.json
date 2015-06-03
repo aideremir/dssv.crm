@@ -7,26 +7,12 @@
         "files": {
             "config.xml": {
                 "parents": {
-                    "/*": [
-                        {
-                            "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"BackgroundMode\"><param name=\"ios-package\" value=\"APPBackgroundMode\" /></feature>",
-                            "count": 1
-                        }
-                    ]
+                    "/*": []
                 }
             },
             "*-Info.plist": {
                 "parents": {
-                    "UIBackgroundModes": [
-                        {
-                            "xml": "<array><string>audio</string></array>",
-                            "count": 1
-                        }
-                    ]
+                    "UIBackgroundModes": []
                 }
             }
         }
@@ -35,16 +21,9 @@
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.phonegap.dssv.crm"
         },
-        "de.appplant.cordova.plugin.background-mode": {
-            "PACKAGE_NAME": "com.phonegap.dssv.crm"
-        },
         "io.gvox.plugin.phonecalltrap": {
             "PACKAGE_NAME": "com.phonegap.dssv.crm"
         }
     },
-    "dependent_plugins": {
-        "org.apache.cordova.device": {
-            "PACKAGE_NAME": "com.phonegap.dssv.crm"
-        }
-    }
+    "dependent_plugins": {}
 }
